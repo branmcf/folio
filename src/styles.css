@@ -1,1 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Tradition";
+  src: url("/assets/fonts/traditionsansxlight.tff") format("truetype")
+}
+
+nav {
+  z-index: 1;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.Aligner-item {
+  max-width: 60%;
+  background: #e6e5e1;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+.folio-nav{
+  background: #e6e5e1;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh; /* Set the fixed height of the footer here */
+  line-height: 10vh; /* Vertically center the text there */
+  background-color: #e6e5e1;
+  text-align: center;
+  color: #373845;
+}
+
+.main-card{
+  width: 60vw;
+  height:70vh;
+  border: 10px solid white;
+  box-shadow: 0 10px 30px -10px #333;
+  background-image: url("/assets/images/stripe_background.png");
+  background-size: cover;
+  font-family: "Tradition" sans-serif;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.main-card h1 {
+  font-weight: 300;
+}
+
+.center-text {
+  text-align: center;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline:0;
+}
+
+body {
+  background: #e6e5e1;
+  height: 90vh;
+  color: #373845;
+  overflow: hidden;
+  background-image: url("/assets/images/green_m.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 60px;
+}
