@@ -1,0 +1,12 @@
+.courses-card {
+  overflow: auto
+}
+
+.courses-table {
+  width:100%;
+  table-layout:fixed;
+}
+
+.class-number {
+  text-align: center;
+}
